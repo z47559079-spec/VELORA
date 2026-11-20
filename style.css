@@ -24,12 +24,21 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
-    background: var(--bg);
+    background:
+        linear-gradient(
+            rgba(12, 8, 7, 0.82),
+            rgba(12, 8, 7, 0.92)
+        ),
+        url("images/velora-background.jpg") center center / cover fixed no-repeat;
+
     color: var(--text);
     font-family: "Vazirmatn", sans-serif;
     line-height: 1.9;
     overflow-x: hidden;
+}
+
 }
 
 body.lang-en {
